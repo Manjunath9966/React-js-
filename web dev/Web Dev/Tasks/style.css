@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.conatiner
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.header
+{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.main
+{
+    display: flex;
+    gap: 10px;
+}
+
+.side-bar1
+{
+    background-color: orange;
+    padding: 20px;
+    width: 20vw;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box1
+{
+    background-color: cyan;
+    padding: 40px;
+    text-align: center;
+    height: 30vh;
+    width: 64vw;
+}
+.box-row
+{
+    display: flex;
+    gap: 10px;
+    
+}
+.box2
+{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    height: 18vh;
+    width: 30vw;
+}
+.box3
+{
+    background-color: rgb(212, 255, 0);
+    padding: 30px;
+    text-align: center;
+    height: 18vh;
+    width: 30vw;
+}
+
+.side-bar2
+{
+    background-color: chartreuse;
+    padding: 20px;
+    text-align: center;
+    width: 20vw;
+}
